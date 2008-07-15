@@ -1,0 +1,7 @@
+This is a simple competition management system based on the old one.
+In this new version, most of the stuff that was in files is now in a mysql database.
+And I changed the backend so it is easier to run and easier to manage, and its in python
+instead of bash scripts. Similar to the last version, this one prevents file access, but
+this version uses libbox, which is based on the idea of soapbox, but also prevents
+fstream file access. And it also prints stuff to stderr so that we can tell the user
+that that is why their program failed.

@@ -1,0 +1,10 @@
+For xml version:
+ 1. Copy this folder to your server.
+ 2. Link somewhere from your httpd to the /web/ folder.
+ 3. cd to backend/libbox, run make.
+ 4. copy libbox.so to backend/
+ 5. copy db-empty.xml to db.xml
+ 6. set permissions: chmod 777 files backend/db.xml
+      (this will change soon, so that db.xml isn't 777)
+
+ 7. To run, cd to backend and run `python backend.py`

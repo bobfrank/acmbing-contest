@@ -1,0 +1,183 @@
+body {
+    background-color: #dadada;
+    // background-color: pink;
+}
+
+img {
+    border: 0;
+}
+
+a:link {
+    color: #6666cc;
+}
+
+a:visited {
+    color: #333399;
+}
+
+a:hover {
+    color: #000;
+}
+
+#main {
+    /*	font-size: small;*/
+    /*	background-color: #dadada; */
+    /*	border: 2px solid black; */
+    padding: 10px;
+}
+
+#content {
+    /*	margin-right: 250px*/
+}
+
+#scoreboard {
+    font-size: smaller;
+    /* margin-top: 10px; */
+    /* margin-right: 250px; */
+    margin-bottom: 10px;
+    /* margin-left: 250px; */
+}
+
+#scoreboard table {
+    border: 1;
+    padding: 0;
+    width: 75%;
+    background-color: black;
+}
+
+#scoreboard thead td {
+    background-color: #467aa7;
+}
+
+#scoreboard thead th {
+    background-color: #467aa7;
+}
+
+#scoreboard thead {
+    color:#ffffff;
+}
+
+#scoreboard tr.odd td {
+    background-color: #eee;
+}
+
+#scoreboard tr.even td {
+    background-color: #aabadd;
+}
+
+#scoreboard tr.highlight td {
+    background-color: #00ff00;
+}
+
+
+
+#box {
+    width: 220px;
+    border: 2px solid black;
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#result-box {
+    border: 2px dashed red;
+    width: 220px; 
+    background-color: #fff0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#box-header {
+    border-bottom: 2px solid #dddddd;
+    margin: 0px;
+}
+
+#result-box-header {
+    border-bottom: 2px solid red;
+    margin: 0px;
+}
+
+#footer {
+    clear: both
+}
+
+#clarifications {
+    position: relative;
+    width: 80%;
+    left: auto;
+    right: auto;
+    border: 1px solid #000;
+    background-color: lightgray;
+    margin: 20px;
+}
+
+#clarifications li {
+    padding-bottom: 5px;
+}
+
+#problems {
+    position: relative;
+    width: 80%;
+    left: auto;
+    right: auto;
+    border: 1px solid #000;
+    background-color: lightgray;
+    margin: 20px;
+}
+
+#problems li {
+    padding-bottom: 5px;
+}
+#MenuLinks {
+}
+
+#MenuLinks a {
+    text-decoration: none;
+}
+
+#MenuLinks ul {
+    padding: 0%;
+    margin: 0%;
+    list-style: inside;
+    font-size: medium;
+    font-weight: bold;
+} 
+
+#MenuLinks ul li {
+    list-style: none;
+    display: inline;
+    padding: 2px 15px 2px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+/* Classes */
+.overlay {
+    width:100%;
+    height: 100%;
+    padding:0px;
+    position:absolute;
+    visibility:hidden;
+    top:0px;
+    left:0px;
+    background-color:#ffffff;
+    layer-background-color:#ffffff;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.sidebar {
+    float: right;
+    clear: both;
+}
+
+.codebox {
+
+
+}

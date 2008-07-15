@@ -1,0 +1,10 @@
+the layout of this program is as follows:
+
+1. There is a backend which is basically used for compiling the programs submitted and responding.
+
+2. There is a frontend that talks through the database to the backend which handles submitting and dealing with the user and dealing with the admins to make their life much more web based.
+
+3. We also have the ability to use sqlite (though thats a pain to setup), and an xml based system
+
+TODO
+4. I eventually want to have more commandline stuff for managing the system which would be build probably in python and just do the same things as the web frontend, but this way you don't need a web server to run.

@@ -1,0 +1,21 @@
+Things that need doing:
+
+1) Finish administrative interface
+
+Make it so that no shell access is required past setting directories up (which can possibly be done via scp/sftp)
+
+2) Expand submission languages
+
+So far, we have C, C++, and Java.
+
+End goal is to support every language, and have the admin select which they want to be allowed.
+
+Languages left:
+
+Lisp
+Haskell
+Perl
+Ruby
+Python
+Prolog
+C#

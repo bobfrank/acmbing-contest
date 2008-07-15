@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<db>
+<table name="contests">
+<column auto_increment="9" name="contest_id"/>
+<column name="start"/>
+<column name="length"/>
+</table>
+<table name="problem_files">
+<column name="contest_id"/>
+<column name="problem"/>
+<column name="filename"/>
+</table>
+<table name="server_info">
+<column name="name"/>
+<column name="value"/>
+<row><name value="update_time"/><value value="0"/></row>
+<row><name value="update_rate"/><value value="60"/></row>
+<row><name value="timeout"/><value value="30"/></row>
+<row><name value="cookie"/><value value=""/></row>
+</table>
+<table name="submitted">
+<column auto_increment="1" name="submitted_id"/>
+<column name="contest_id"/>
+<column name="user_id"/>
+<column name="problem"/>
+<column name="filename"/>
+<column name="tested"/>
+<column name="success"/>
+<column name="time"/>
+<column name="message"/>
+</table>
+<table name="testcases">
+<column auto_increment="1" name="testcase_id"/>
+<column name="contest_id"/>
+<column name="problem"/>
+<column name="input"/>
+<column name="output"/>
+</table>
+<table name="test_output">
+<column name="submitted_id"/>
+<column name="testcase_id"/>
+<column name="output"/>
+</table>
+<table name="users">
+<column name="user_id"/>
+<column name="contest_id"/>
+<column name="name"/>
+</table>
+</db>
